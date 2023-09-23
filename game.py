@@ -11,9 +11,9 @@ class Game:
 		self.next_block = self.get_random_block()
 		self.game_over = False
 		self.score = 0
-		self.rotate_sound = pygame.mixer.Sound(r"Python-Tetris-Game-Pygame-main\Sounds\rotate.ogg")
-		self.clear_sound = pygame.mixer.Sound(r"Python-Tetris-Game-Pygame-main\Sounds\clear.ogg")
-		pygame.mixer.music.load(r"Python-Tetris-Game-Pygame-main\Sounds\music.ogg")
+		self.rotate_sound = pygame.mixer.Sound(r"C:\Users\sriva\OneDrive\Desktop\Python-Tetris-Game-Pygame-main\Sounds\rotate.ogg")
+		self.clear_sound = pygame.mixer.Sound(r"C:\Users\sriva\OneDrive\Desktop\Python-Tetris-Game-Pygame-main\Sounds\clear.ogg")
+		pygame.mixer.music.load(r"C:\Users\sriva\OneDrive\Desktop\Python-Tetris-Game-Pygame-main\Sounds\music.ogg")
 
 		pygame.mixer.music.play(-1)
 
